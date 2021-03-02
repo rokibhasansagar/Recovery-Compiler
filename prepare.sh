@@ -68,6 +68,7 @@ export \
     PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
     USE_CCACHE=1 CCACHE_COMPRESS=1 CCACHE_COMPRESSLEVEL=8 CCACHE_DIR=/opt/ccache \
     TERM=xterm-256color
+. /home/runner/.bashrc 2>/dev/null
 
 printf "Setting ccache...\n"
 mkdir -p /opt/ccache &>/dev/null
